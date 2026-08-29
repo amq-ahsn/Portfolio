@@ -40,7 +40,7 @@ export default function About() {
             <div>
               <SectionHeading eyebrow="Biography" title="Where it began" />
               <ScrollScrubText
-                text="I started building for the web at 15, hand-coding HTML pages for fun. That curiosity grew into a career spanning startups, studios and global agencies. Today I focus on the intersection of engineering and design — where motion, 3D and performance combine to create experiences people remember."
+                text="I started building for the web at 19, hand-coding HTML pages for fun. That curiosity grew into a career spanning startups, studios and global agencies. Today I focus on the intersection of engineering and design — where motion, 3D and performance combine to create experiences people remember."
                 className="mt-5 text-lg font-medium leading-relaxed md:text-xl md:leading-relaxed"
               />
               <Reveal delay={0.15}>

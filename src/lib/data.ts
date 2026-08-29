@@ -15,9 +15,9 @@ export const profile = {
 };
 
 export const stats = [
-  { label: "Projects Completed", value: 9, suffix: "+" },
-  { label: "Years Experience", value: 1, suffix: "+" },
-  { label: "Happy Clients", value: 6, suffix: "+" },
+  { label: "Projects Completed", value: 19, suffix: "+" },
+  { label: "Years Experience", value: 2, suffix: "+" },
+  { label: "Happy Clients", value: 11, suffix: "+" },
   { label: "Technologies", value: 20, suffix: "+" },
   { label: "Cinematic Works ", value: 3, suffix: "+" },
 ];
@@ -205,17 +205,17 @@ export const experience = [
   //     "Mentored 4 engineers and set the animation performance standard.",
   //   ],
   // },
-  // {
-  //   role: "Frontend Developer",
-  //   company: "Nimbus Studio",
-  //   period: "2021 — 2023",
-  //   type: "Previous",
-  //   points: [
-  //     "Shipped 20+ marketing sites with cinematic scroll experiences.",
-  //     "Introduced GSAP ScrollTrigger workflow across the studio.",
-  //     "Improved average Lighthouse score from 68 to 96.",
-  //   ],
-  // },
+{
+role: "Frontend Developer",
+company: "Mapmygenome",
+period: "2026 — Present",
+type: "Current",
+points: [
+"Building polished, responsive interfaces for data-driven digital experiences.",
+"Translating product and design concepts into performant, reusable frontend components.",
+],
+},
+
   // {
   //   role: "UI Engineer",
   //   company: "Brightwave",
@@ -229,7 +229,7 @@ export const experience = [
   {
     role: "Freelance Developer",
     company: "Independent",
-    period: "2024 — Present",
+    period: "2024 — 2025",
     type: "Freelance",
     points: [
       "Delivered 10+ projects for startups and agencies nationally.",

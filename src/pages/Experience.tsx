@@ -15,7 +15,7 @@ export default function Experience() {
       <PageHero
         eyebrow="Experience"
         title="Career timeline"
-        desc="Six years of shipping fast, beautiful and reliable frontend products across startups, studios and agencies."
+        desc="Three years of shipping fast, beautiful and reliable frontend products across startups, studios and agencies."
       />
 
       <section className="section-pad pb-16">

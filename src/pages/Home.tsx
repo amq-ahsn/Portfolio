@@ -178,7 +178,7 @@ export default function Home() {
             <div className="mt-8 grid grid-cols-2 gap-4">
               {[
                 { k: "Based in", v: profile.location },
-                { k: "Experience", v: "1+" },
+                { k: "Experience", v: "2+" },
                 { k: "Focus", v: "Frontend · 3D · Motion" },
                 { k: "Status", v: "Open to work" },
               ].map((x) => (

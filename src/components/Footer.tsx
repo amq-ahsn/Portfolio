@@ -25,16 +25,27 @@ export default function Footer() {
           transition={{ duration: 30, repeat: Infinity, ease: "linear" }}
           className="h-80 w-80 rounded-full border border-cyan-400/20"
         />
-        <div className="blob h-72 w-72" style={{ background: "radial-gradient(circle,#22d3ee,transparent)", top: 0, left: 0 }} />
+        <div
+          className="blob h-72 w-72"
+          style={{
+            background: "radial-gradient(circle,#22d3ee,transparent)",
+            top: 0,
+            left: 0,
+          }}
+        />
       </div>
 
       <div className="section-pad relative z-10 py-16">
         <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr]">
           <div>
             <h3 className="text-2xl font-bold grad-text">Let's connect</h3>
+
             <p className="mt-3 max-w-sm text-sm text-muted">
-              Open to freelance projects, full-time roles and ambitious collaborations.
+              Open to freelance projects,{" "}
+              <span className="line-through">full-time roles</span> and
+              ambitious collaborations.
             </p>
+
             <a
               href={`mailto:${profile.email}`}
               className="mt-5 inline-flex items-center gap-2 text-sm text-cyan-300 hover:underline"
@@ -44,11 +55,16 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="mb-4 text-xs uppercase tracking-[0.2em] text-muted">Navigation</p>
+            <p className="mb-4 text-xs uppercase tracking-[0.2em] text-muted">
+              Navigation
+            </p>
             <ul className="space-y-2 text-sm">
               {nav.map((n) => (
                 <li key={n.to}>
-                  <Link to={n.to} className="text-muted transition-colors hover:text-cyan-300">
+                  <Link
+                    to={n.to}
+                    className="text-muted transition-colors hover:text-cyan-300"
+                  >
                     {n.label}
                   </Link>
                 </li>
@@ -57,7 +73,9 @@ export default function Footer() {
           </div>
 
           <div>
-            <p className="mb-4 text-xs uppercase tracking-[0.2em] text-muted">Social</p>
+            <p className="mb-4 text-xs uppercase tracking-[0.2em] text-muted">
+              Social
+            </p>
             <div className="flex gap-3">
               {[
                 { icon: Github, href: profile.socials.github },
@@ -80,7 +98,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-xs text-muted sm:flex-row">
-          <p>© {new Date().getFullYear()} {profile.name}. Crafted with React, R3F & Framer Motion.</p>
+          <p>
+            © {new Date().getFullYear()} {profile.name}. Crafted with React, R3F
+            & Framer Motion.
+          </p>
           <Magnetic strength={0.3}>
             <button
               onClick={scrollToTop}
