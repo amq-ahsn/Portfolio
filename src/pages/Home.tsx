@@ -470,7 +470,7 @@ export default function Home() {
             { icon: () => <span className="text-cyan-300">@</span>, label: "Email", v: profile.email, href: `mailto:${profile.email}` },
             { icon: Github, label: "GitHub", v: "@amq-ahsn", href: profile.socials.github },
             { icon: Linkedin, label: "LinkedIn", v: "@AmeequeAhsan", href: profile.socials.linkedin },
-            { icon: Instagram, label: "X", v: "#", href: profile.socials.twitter },
+            { icon: Instagram, label: "Instagram", v: "https://www.instagram.com/___ameeque?stkn=MTNxeDB6dW1mMjdiYQ==", href: profile.socials.twitter },
           ].map((c, i) => (
             <Reveal key={c.label} delay={i * 0.05}>
               <a href={c.href} target="_blank" rel="noreferrer">
