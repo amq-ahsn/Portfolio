@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { ArrowUp, Mail } from "lucide-react";
-import { Github, Linkedin, Twitter } from "./SocialIcons";
+import { Github, Linkedin, Instagram } from "./SocialIcons";
 import { motion } from "framer-motion";
 import { profile } from "../lib/data";
 import { Magnetic } from "./ui";
