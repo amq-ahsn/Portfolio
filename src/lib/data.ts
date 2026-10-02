@@ -2,7 +2,7 @@ export const profile = {
   name: "Ameeque Ahsan",
   role: "Frontend Developer",
   tagline: "Crafting immersive digital experiences with modern web technologies.",
-  location: "Amravati, Maharashtra, India ·",
+  location: "Maharashtra, India ·",
   email: "ameequeahsan@gmail.com",
   available: true,
   summary:
