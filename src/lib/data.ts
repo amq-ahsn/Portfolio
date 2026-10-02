@@ -10,7 +10,7 @@ export const profile = {
   socials: {
     github: "https://github.com/amq-ahsn",
     linkedin: "https://www.linkedin.com/in/ameeque-ahsan-75b693373/",
-    // twitter: "#",
+    Instagram: "https://www.instagram.com/___ameeque?stkn=MTNxeDB6dW1mMjdiYQ==",
   },
 };
 
